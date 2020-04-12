@@ -1,7 +1,12 @@
 package com.assignment.app.user;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class User {
 
+	@Id
 	Integer id;
 	String name;
 	Integer age;
